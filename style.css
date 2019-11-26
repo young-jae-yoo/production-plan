@@ -14,7 +14,7 @@ h1 {
     padding: 20px;
 }
 ol{
-    border-right: 1px solid black;
+    font-size: 25px;
     width: 110px;
     margin: 0px;
     padding: 20px;
@@ -22,7 +22,7 @@ ol{
 
 #grid{
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 170px 1fr;
 
 }
 
@@ -33,6 +33,7 @@ ol{
 
 #grid #article{
     padding-left: 40px;
+    border-left: 1px solid black;
     
 }
 @media(max-width: 800px){
